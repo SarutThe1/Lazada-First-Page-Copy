@@ -13,7 +13,17 @@ import nufg from "../images/nufg.jpg";
 import CarouselBar from "../layouts/CarouselBar";
 
 const homepage = () => {
-
+    let i = 0;
+    let colors = ['#0B095D', '#DFDAF0', 'white','#FF0061','#3F2598','#0047A9','#0126CC','#00A5E5'];
+    
+    function changeColor(){
+        document.getElementById('change').style.backgroundColor = colors[i];
+        i++;
+        if(i>=colors.length){
+            i=0;
+        }
+    }
+    setInterval(changeColor, 5000);
   return (
     <>
       <div style={{ backgroundColor: "#01bfa6" }}>
@@ -43,7 +53,7 @@ const homepage = () => {
           <img src={nufg} alt="NewUserFreeGift" className="Pic2" />
         </div>
       </div>
-      <div style={{ marginTop: "40px", zIndex: "1", backgroundColor:'lightblue' }}>
+      <div id="change" style={{ marginTop: "40px", zIndex: "1", backgroundColor:'#00A5E5' }}>
        
         <div className="centered">
 
