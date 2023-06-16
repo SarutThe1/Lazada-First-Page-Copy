@@ -1,0 +1,41 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CloseBanner {
+  border: none;
+  background: none;
+  position: relative;
+  right: 2%;
+  top: -17px;
+  font-size: 20px;
+  color: white;
+}
+
+.Pic1 {
+    max-height: 40px;
+    padding-right: 70px;
+}
+
+.Pic2 {
+    max-height: 50px;
+}
+
+.input-search{
+    width: 600px;
+    height: 40px;
+    background-color: #EFF0F5;
+    border: none;
+}
+
+.search-button {
+    background-color: #f47424;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 26px;
+}
