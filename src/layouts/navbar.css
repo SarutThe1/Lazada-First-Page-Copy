@@ -2,11 +2,17 @@
     background-color: lightgray;
 }
 
-a {
-    color: black;
+.nav-click {
+    color: gray;
     text-decoration: none;
+    position: relative;
 }
 
-a:hover {
+.nav-click:hover {
+    color: #f47424;
+}
+
+.on-point:hover {
+    background-color: lightgray;
     color: #f47424;
 }

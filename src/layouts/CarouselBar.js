@@ -17,7 +17,7 @@ const CarouselBar = () => {
     
       <Carousel
         autoPlay={true}
-        width={"900px"}
+        width={"935px"}
         
         interval={5000}
         infiniteLoop={true}
